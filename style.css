@@ -1,0 +1,121 @@
+@import url('https://db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+:root {
+  --textColor: #272431;
+  --hoverColor: #ec5242;
+  --secondaryColor: #d3d3d3;
+  --secondaryTextColor: #818080;
+  --secondaryBackground: #414246;
+}
+
+* {
+    font-family: "Lato",serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#logo {
+  height: 2.5rem;
+  background-size: cover;
+}
+
+#top-bar-social {
+  margin: auto 0;
+  padding: 5px;
+}
+
+.navbar {
+  z-index: 3;
+  box-shadow: var(--textColor);
+}
+
+.top-bar {
+  background-color: var(--secondaryBackground);
+}
+
+.carousel-item {
+  background-size: cover;
+}
+
+.main-bg {
+  position: relative;
+  min-height: 85vh;
+  background-position: center;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1079%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(246%2c 246%2c 248%2c 1)'%3e%3c/rect%3e%3crect width='192' height='192' clip-path='url(%26quot%3b%23SvgjsClipPath1080%26quot%3b)' x='900.74' y='27.43' fill='url(%23SvgjsPattern1081)' transform='rotate(238.65%2c 996.74%2c 123.43)'%3e%3c/rect%3e%3crect width='221.44' height='221.44' clip-path='url(%26quot%3b%23SvgjsClipPath1082%26quot%3b)' x='-92.18' y='-1.69' fill='url(%23SvgjsPattern1083)' transform='rotate(279.59%2c 18.54%2c 109.03)'%3e%3c/rect%3e%3crect width='216' height='216' clip-path='url(%26quot%3b%23SvgjsClipPath1084%26quot%3b)' x='567.16' y='222.34' fill='url(%23SvgjsPattern1085)' transform='rotate(229.53%2c 675.16%2c 330.34)'%3e%3c/rect%3e%3ccircle r='72.64065768043952' cx='896.47' cy='525.48' stroke='rgba(168%2c 168%2c 165%2c 1)' stroke-width='1.44' stroke-dasharray='2%2c 2'%3e%3c/circle%3e%3crect width='348' height='348' clip-path='url(%26quot%3b%23SvgjsClipPath1086%26quot%3b)' x='786.61' y='-111.08' fill='url(%23SvgjsPattern1087)' transform='rotate(111.46%2c 960.61%2c 62.92)'%3e%3c/rect%3e%3crect width='138.2' height='138.2' clip-path='url(%26quot%3b%23SvgjsClipPath1088%26quot%3b)' x='695.93' y='267.58' fill='url(%23SvgjsPattern1089)' transform='rotate(122.58%2c 765.03%2c 336.68)'%3e%3c/rect%3e%3cpath d='M999.8 576.9300000000001 L1051.1799999999998 587.26L1004.5419399577183 603.0430600422815z' stroke='rgba(138%2c 138%2c 138%2c 1)' stroke-width='1' stroke-dasharray='3%2c 2'%3e%3c/path%3e%3crect width='184.36' height='184.36' clip-path='url(%26quot%3b%23SvgjsClipPath1090%26quot%3b)' x='221.83' y='193.94' fill='url(%23SvgjsPattern1091)' transform='rotate(42.82%2c 314.01%2c 286.12)'%3e%3c/rect%3e%3crect width='223.68' height='223.68' clip-path='url(%26quot%3b%23SvgjsClipPath1092%26quot%3b)' x='826.8' y='-66.56' fill='url(%23SvgjsPattern1093)' transform='rotate(313.68%2c 938.64%2c 45.28)'%3e%3c/rect%3e%3cpath d='M910.94 24.25L922.4 18.53 930.49 28.45 941.95 22.74 950.05 32.66 961.51 26.94 969.6 36.87M909.26 32.07L920.72 26.35 928.81 36.27 940.27 30.56 948.36 40.48 959.82 34.76 967.92 44.69M907.58 39.89L919.04 34.17 927.13 44.1 938.59 38.38 946.68 48.3 958.14 42.58 966.23 52.51' stroke='rgba(168%2c 168%2c 165%2c 1)' stroke-width='2.2' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3crect width='123.2' height='123.2' clip-path='url(%26quot%3b%23SvgjsClipPath1094%26quot%3b)' x='335.78' y='259.88' fill='url(%23SvgjsPattern1095)' transform='rotate(45.78%2c 397.38%2c 321.48)'%3e%3c/rect%3e%3crect width='192' height='192' clip-path='url(%26quot%3b%23SvgjsClipPath1096%26quot%3b)' x='1274.1' y='448.84' fill='url(%23SvgjsPattern1097)' transform='rotate(126.88%2c 1370.1%2c 544.84)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1079'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='192' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1081'%3e%3crect width='192' height='3' x='0' y='0' fill='rgba(168%2c 168%2c 165%2c 1)'%3e%3c/rect%3e%3crect width='192' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1080'%3e%3ccircle r='48' cx='996.74' cy='123.43'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='221.44' height='13.84' patternUnits='userSpaceOnUse' id='SvgjsPattern1083'%3e%3crect width='221.44' height='6.92' x='0' y='0' fill='rgba(138%2c 138%2c 138%2c 1)'%3e%3c/rect%3e%3crect width='221.44' height='6.92' x='0' y='6.92' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1082'%3e%3ccircle r='55.36' cx='18.54' cy='109.03'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1085'%3e%3cpath d='M0 6L3 0L6 6' stroke='rgba(168%2c 168%2c 165%2c 1)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1084'%3e%3ccircle r='54' cx='675.16' cy='330.34'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1087'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='%23e73635' fill='none' stroke-width='1'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1086'%3e%3ccircle r='87' cx='960.61' cy='62.92'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='13.82' height='13.82' patternUnits='userSpaceOnUse' id='SvgjsPattern1089'%3e%3cpath d='M0 13.82L6.91 0L13.82 13.82' stroke='rgba(168%2c 168%2c 165%2c 1)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1088'%3e%3ccircle r='34.55' cx='765.03' cy='336.68'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='184.36' height='8.38' patternUnits='userSpaceOnUse' id='SvgjsPattern1091'%3e%3crect width='184.36' height='4.19' x='0' y='0' fill='%23e73635'%3e%3c/rect%3e%3crect width='184.36' height='4.19' x='0' y='4.19' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1090'%3e%3ccircle r='46.09' cx='314.01' cy='286.12'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='13.98' height='13.98' patternUnits='userSpaceOnUse' id='SvgjsPattern1093'%3e%3cpath d='M6.99 1L6.99 12.98M1 6.99L12.98 6.99' stroke='rgba(138%2c 138%2c 138%2c 1)' fill='none' stroke-width='1.47'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1092'%3e%3ccircle r='55.92' cx='938.64' cy='45.28'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='123.2' height='12.32' patternUnits='userSpaceOnUse' id='SvgjsPattern1095'%3e%3crect width='123.2' height='6.16' x='0' y='0' fill='rgba(138%2c 138%2c 138%2c 1)'%3e%3c/rect%3e%3crect width='123.2' height='6.16' x='0' y='6.16' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1094'%3e%3ccircle r='30.8' cx='397.38' cy='321.48'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1097'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='rgba(168%2c 168%2c 165%2c 1)' fill='none' stroke-width='1.77'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1096'%3e%3ccircle r='48' cx='1370.1' cy='544.84'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+}
+
+.main-bg h1 {
+  color: var(--hoverColor);
+}
+
+#nav-toggle {
+  color: var(--textColor);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.social-icons {
+  color: var(--secondaryColor);
+  font-size: 1em;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.lang {
+  padding-right: 5px;
+  list-style: none;
+  color: var(--secondaryColor);
+}
+
+.nav-item {
+  place-self: center;
+  padding-right: 2rem;
+}
+
+.social-item {
+  padding-right: 1.5rem;
+  list-style: none;
+}
+
+.nav-link {
+  color: var(--secondaryTextColor);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.nav-link:active {
+  color: var(--hoverColor);
+}
+
+.nav-link:hover {
+  color: var(--hoverColor);
+}
+
+#nav-btn {
+  color: var(--hoverColor);
+  text-decoration: none;
+  border: 3px solid var(--hoverColor);
+  padding: 8px;
+}
+
+#nav-btn:hover {
+  color: var(--textColor);
+  text-decoration: none;
+  transition: 0.5s;
+  background-color: var(--hoverColor);
+  padding: 8px;
+}
+
+#nav-cc-btn {
+  margin: auto;
+}
+
+@media (max-width: 750px) {
+
+
+  
+}
