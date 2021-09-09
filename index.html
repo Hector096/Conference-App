@@ -18,20 +18,19 @@
 </head>
 
 <body>
-    <div class="container-fluid top-bar d-none d-md-block d-lg-block">
-        <div class="container d-flex justify-content-end align-items-center" id="top-bar-box">
-            <ul class="d-flex" id="top-bar-social">
-                <li class="social-item"><i class="fab fa-facebook-f social-icons"></i></li>
-                <li class="social-item"><i class="fab fa-twitter social-icons"></i></li>
-                <li class="social-item lang">English</i></li>
-                <li class="social-item lang">My Page</li>
-                <li class="social-item lang">Logout</li>
-            </ul>
+    <header>
+        <div class="container-fluid top-bar d-none d-md-block d-lg-block fixed-top">
+            <div class="container d-flex justify-content-end align-items-center" id="top-bar-box">
+                <ul class="d-flex" id="top-bar-social">
+                    <li class="social-item"><a href="#"><i class="fab fa-facebook-f social-icons"></i></a></li>
+                    <li class="social-item"><a href="#"><i class="fab fa-twitter social-icons"></i></a></li>
+                    <li class="social-item lang"><a href="#">English</a></i></li>
+                    <li class="social-item lang"><a href="#">My Page</a></li>
+                    <li class="social-item lang"><a href="#">Logout</a></li>
+                </ul>
+            </div>
         </div>
-
-    </div>
-    <header class="shadow p-2 bg-white">
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-md fixed-top navbar-absolute" id="nav-container">
             <div class="container">
                 <a class="navbar-brand text-dark d-none d-md-block d-lg-block" href="#">
                     <img src="images/logo.png" alt="logo" id="logo">
@@ -41,16 +40,22 @@
                     aria-label="Toggle navigation">
                     <i class="fas fa-bars" id="nav-toggle"></i>
                 </button>
+                <button class="navbar-toggler collapsed d-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    onclick="closeMenu();"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-times" id="nav-close"></i>
+                </button>
                 <div class="navbar-collapse collapse" id="navbarCollapse">
                     <ul class="navbar-nav ms-lg-auto ms-md-auto nav-space">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Achievements</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">News</a>
@@ -59,26 +64,81 @@
                             <a class="nav-link" href="#">Contact Us</a>
                         </li>
                     </ul>
-                    <button type="button" class="btn btn-outline-primary" id="nav-btn"> Get In Touch</button>
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-outline-primary nav-btn1"> Get In Touch</button>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <div class="container-fluid main-bg">
-            <div class="container d-flex flex-column justify-content-start pt-5">
-                <h1>"Hello! Sharing World"</h1>
-                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis veniam deserunt, quas eligendi
-                    enim quibusdam voluptatem doloremque deleniti iusto repellat mollitia rem modi quasi ab!</p>
-                    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima.</h2>
+        <section class="container-fluid main-bg">
+            <div class="container d-flex flex-column main-heading">
+                <h1 class="mt-3">"Hello! Sharing World"</h1>
+                <h1 class="display-1">Aanchal Global<br> Impex Expo <br>2021</h1>
+                <div class="w-75 p-2 bg-white border-2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolores, autem fuga explicabo nobis
+                        dolorum ipsam vitae veniam blanditiis, eum quam et iusto porr</p>
+                </div>
+                <h2 class="pt-3 text-dark font-weight-bold"><strong>2021.10.15 ~ 16(FRI)</strong> </h2>
+                <h4 class="pt-2 text-secondary">@National Export Council of India, Export HUB and more </h4>
             </div>
 
-        </div>
+        </section>
+        <section class="container-fluid products-box d-flex flex-column justify-content-center align-items-center">
+            <h2 class="mt-5 product-heading">Our Products</h2>
+            <div class="container p-5">
+                <div class="row row-cols-1 row-cols-md-3" id="products-list">
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-primary mb-5 d-lg-none d-md-block nav-btn">
+                Load More Products
+            </button>
+        </section>
+
+        <section class="container-fluid bg-light d-flex flex-column justify-content-center align-items-center">
+            <div class="container py-5 d-flex flex-column align-items-center">
+                <h2 class="feature-post">Featured Posts</h2>
+                <div class="row gap-3 d-flex justify-content-center" id="featured-container">
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-primary mb-5 d-lg-none d-md-block nav-btn">
+                Load More Posts
+            </button>
+
+        </section>
+
+        <section class="container-fluid products-box d-flex flex-column justify-content-center">
+            <h2 class="mt-5 product-heading">Partner</h2>
+            <div class="container p-5">
+                <div class="partner">
+                    <img class="p-3" src="https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/26_09_2019_18_23_07_0939321.png?width=920&format=webp" height="150px" width="150px" alt="partner1">
+                    <img class="p-3" src="https://www.legalraasta.com/blog/wp-content/uploads/2019/04/eic.jpg" height="150px" width="150px" alt="partner2">
+                    <img class="p-3" src="https://www.logo-company.in/logo/best-logo-designer-company-538.jpg" height="150px" width="150px" alt="partner3">
+                    <img class="p-3" src="https://www.nuaodisha.com/images/Contents/NuaOdisha-131936-MPEDA.jpg" height="150px" width="150px" alt="partner3">
+                    <img class="p-3" src="https://www.logo-company.in/logo/best-logo-designer-company-611.jpg" height="150px" width="150px" alt="partner3">
+                </div>
+                
+
+            </div>
+
+        </section>
 
     </main>
-    <footer class="container-fluid">
+    <footer class="container-fluid bg-light">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col align-self-center footer-row">
+                    <img src="images/logo.png" alt="logo2">
+                </div>
+                <div class="col align-self-center">
+                    <p><strong>2021 Anchal Enterprises All Rights Reserved</strong></p>
+                    <p class="d-none d-lg-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At pariatur est nulla nesciunt unde
+                        cupiditate, cum id praesentium ipsum alias eveniet asperiores dolorum veniam deleniti.</p>
+                </div>
+            </div>
+        </div>
 
     </footer>
 
@@ -88,6 +148,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
+        <script src="app.js"></script>
 </body>
 
 </html>
