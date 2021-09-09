@@ -30,7 +30,7 @@
                 </ul>
             </div>
         </div>
-        <nav class="navbar navbar-expand-md fixed-top navbar-absolute" id="nav-container">
+        <nav class="navbar navbar-expand-md fixed-top" id="nav-container">
             <div class="container">
                 <a class="navbar-brand text-dark d-none d-md-block d-lg-block" href="#">
                     <img src="images/logo.png" alt="logo" id="logo">
@@ -39,12 +39,6 @@
                     data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <i class="fas fa-bars" id="nav-toggle"></i>
-                </button>
-                <button class="navbar-toggler collapsed d-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    onclick="closeMenu();"
-                    aria-label="Toggle navigation">
-                    <i class="fas fa-times" id="nav-close"></i>
                 </button>
                 <div class="navbar-collapse collapse" id="navbarCollapse">
                     <ul class="navbar-nav ms-lg-auto ms-md-auto nav-space">
@@ -89,7 +83,13 @@
         <section class="container-fluid products-box d-flex flex-column justify-content-center align-items-center">
             <h2 class="mt-5 product-heading">Our Products</h2>
             <div class="container p-5">
-                <div class="row row-cols-1 row-cols-md-3" id="products-list">
+                <div class="row row-cols-1 row-cols-md-3 d-none d-lg-flex d-md-flex" id="products-list">
+
+
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 d-lg-none d-md-flex" id="products-list2">
+
+
                 </div>
             </div>
             <button type="button" class="btn btn-outline-primary mb-5 d-lg-none d-md-block nav-btn">
@@ -100,7 +100,13 @@
         <section class="container-fluid bg-light d-flex flex-column justify-content-center align-items-center">
             <div class="container py-5 d-flex flex-column align-items-center">
                 <h2 class="feature-post">Featured Posts</h2>
-                <div class="row gap-3 d-flex justify-content-center" id="featured-container">
+                <div class="row gap-3 d-flex justify-content-center d-none d-lg-flex d-md-flex" id="featured-container">
+
+
+                </div>
+                <div class="row gap-3 d-flex justify-content-center d-lg-none d-md-flex" id="featured-container2">
+
+                    
                 </div>
             </div>
             <button type="button" class="btn btn-outline-primary mb-5 d-lg-none d-md-block nav-btn">

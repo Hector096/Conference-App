@@ -10,10 +10,10 @@
 }
 
 * {
-    font-family: "Lato";
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 #logo {
@@ -42,14 +42,19 @@
 
 .feature-description {
   color: var(--secondaryBackground);
-  font-weight:lighter;
+  font-weight: lighter;
   font-size: 1rem;
   line-height: 20px;
 }
 
 .feature-title {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: bolder;
+}
+
+.hr-border {
+  border: 1px solid var(--secondaryTextColor);
+  width: 30px;
 }
 
 .carousel-item {
@@ -57,7 +62,7 @@
 }
 
 .products-box {
-    background-color: var(--textColor);
+  background-color: var(--textColor);
 }
 
 .lang a {
@@ -82,16 +87,6 @@
 }
 
 #nav-toggle {
-  color: var(--textColor);
-  font-size: 2em;
-  font-weight: bold;
-}
-
-#nav-container {
-  position: none;
-}
-
-#nav-close {
   color: var(--textColor);
   font-size: 2em;
   font-weight: bold;
@@ -140,7 +135,7 @@
 .about-logo {
   max-width: 400px;
   border: 1px solid rgb(226, 225, 225);
-  box-shadow: gray;
+  box-shadow: 1px 1px gray;
 }
 
 .social-item {
@@ -155,7 +150,7 @@
   font-size: medium;
 }
 
-.nav-link:active {
+.active {
   color: var(--hoverColor);
 }
 
@@ -215,12 +210,17 @@
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .partner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
+
+  #nav-container {
+    position: static;
+    background-color: #f6f6f8;
+    border-bottom: 1px solid transparent;
+  }
 }
