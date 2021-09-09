@@ -3,7 +3,7 @@
 > This is an Aanchal Global Impex Expo website, through which you can get all summit and products information. Enjoy Watching!
 
 
-## Desktop Version
+## ScreenShots
 ![screenshot](./images/screenshot1.PNG)
 ![screenshot](./images/screenshot2.PNG)
 ![screenshot](./images/screenshot3.PNG)
