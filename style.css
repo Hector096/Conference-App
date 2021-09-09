@@ -47,6 +47,11 @@
   line-height: 20px;
 }
 
+.partner-img {
+  height: 150px;
+  width: 150px;
+}
+
 .feature-title {
   font-family: "Lato", sans-serif;
   font-weight: bolder;
