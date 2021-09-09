@@ -1,6 +1,6 @@
 # Aanchal Enterprises
 
-> This is a Aanchal Global Impex Expo website, through which you can get al the product list and summit information. Enjoy Watching!
+> This is an Aanchal Global Impex Expo website, through which you can get all summit and products information. Enjoy Watching!
 
 
 ## Desktop Version
