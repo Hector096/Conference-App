@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## LIVE DEMO
 
-- [Live Demo](https://hector096.github.io/conference/)
+- [Live Demo](https://hector096.github.io/Conference-App/)
 
 ## Built With
 
