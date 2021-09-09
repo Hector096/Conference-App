@@ -2,6 +2,8 @@ const featuredContainer = document.getElementById('featured-container');
 const productContainer = document.getElementById('products-list');
 const featuredContainer2 = document.getElementById('featured-container2');
 const productContainer2 = document.getElementById('products-list2');
+const productBtn = document.getElementById('load-product-button');
+const postBtn = document.getElementById('load-postt-button');
 
 const myProducts = [
   {
@@ -69,10 +71,10 @@ const featchFeatured = (data) => {
   }
 };
 
-const featchFeatured2 = (data) => {
+const featchFeatured2 = (data, j) => {
   let featuredItem;
 
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < j; i += 1) {
     featuredItem = ` <div class="card border-0 bg-light  mt-5" style="max-width: 540px;">
         <div class="row">
             <div class="col-6 m-auto">
@@ -110,10 +112,10 @@ const fetchproducts = (data) => {
     productContainer.innerHTML += productItem;
   }
 };
-const fetchproducts2 = (data) => {
+const fetchproducts2 = (data, j) => {
   let productItem;
 
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < j; i += 1) {
     productItem = ` <div class="col">
         <div class="card m-3 border-0">
             <img class="card-img-top" width="100%" height="200" role="img" focusable="true"
@@ -131,5 +133,17 @@ const fetchproducts2 = (data) => {
 
 featchFeatured(myFeature);
 fetchproducts(myProducts);
-featchFeatured2(myFeature);
-fetchproducts2(myProducts);
+featchFeatured2(myFeature, 3);
+fetchproducts2(myProducts, 3);
+
+productBtn.onclick = () => {
+  productBtn.style.display = 'none';
+  productContainer2.innerHTML = '';
+  fetchproducts2(myProducts, myProducts.length);
+};
+
+postBtn.onclick = () => {
+  postBtn.style.display = 'none';
+  featuredContainer2.innerHTML = '';
+  featchFeatured2(myFeature, myFeature.length);
+};

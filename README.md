@@ -1,19 +1,14 @@
-# My Portfolio
+# Aanchal Enterprises
 
-> This is a web portfolio of my work with all the communication details. Enjoy watching.
+> This is a Aanchal Global Impex Expo website, through which you can get al the product list and summit information. Enjoy Watching!
 
 
 ## Desktop Version
-![screenshot](./images/desktop-screenshot.PNG)
-![screenshot](./images/second-desktop.PNG)
-![screenshot](./images/third-desktop.PNG)
-![screenshot](./images/forth-desktop.PNG)
-
-## Mobile Version
-![screenshot](./images/intro.PNG)
-![screenshot](./images/Work.PNG)
-![screenshot](./images/about.PNG)
-![screenshot](./images/contact-form.PNG)
+![screenshot](./images/screenshot1.PNG)
+![screenshot](./images/screenshot2.PNG)
+![screenshot](./images/screenshot3.PNG)
+![screenshot](./images/screenshot4.PNG)
+![screenshot](./images/screenshot5.PNG)
 
 Additional description about the project and its features.
 
@@ -25,6 +20,7 @@ Additional description about the project and its features.
 ## Built With
 
 - HTML & CSS
+- Javascript
 - Github
 
 
@@ -35,11 +31,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-You have a basic understanding of HTML,CSS,Git and Github. 
+You have a basic understanding of HTML,CSS,JavaScript, Git and Github. 
 
 ### Setup
 
-1. Clone the repository with *git clone: [Repository](https://github.com/Hector096/My-Portfolio.git*)  
+1. Clone the repository with *git clone: [Repository](https://github.com/Hector096/Conference-App)  
 2. Run *index.html* in for browser.
 
 
@@ -54,7 +50,7 @@ You have a basic understanding of HTML,CSS,Git and Github.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Hector096/FirstRepo/issues).
+Feel free to check the [issues page](https://github.com/Hector096/Conference-App/issues).
 
 ## Show your support
 
