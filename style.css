@@ -194,19 +194,10 @@ h1 {
   color: var(--hoverColor);
 }
 
-.nav-btn {
-  color: var(--hoverColor);
-  border: 3px solid var(--hoverColor);
-  padding: 8px;
-  margin-top: 5px;
-}
-
 .nav-btn1 {
   color: var(--hoverColor);
   border: 3px solid var(--hoverColor);
   padding: 8px;
-  margin-top: 10px;
-  margin-right: 1.5rem;
 }
 
 .footer-row {
@@ -219,12 +210,11 @@ h1 {
   justify-content: center;
 }
 
-#nav-btn:hover {
+.nav-btn1:hover {
   color: var(--textColor);
-  text-decoration: none;
   transition: 0.5s;
+  border: 3px solid var(--hoverColor);
   background-color: var(--hoverColor);
-  padding: 8px;
 }
 
 #nav-cc-btn {
@@ -258,5 +248,10 @@ h1 {
     position: static;
     background-color: #f6f6f8;
     border-bottom: 1px solid transparent;
+  }
+
+  .nav-btn1 {
+    margin-top: 10px;
+    margin-right: 1.7rem;
   }
 }
